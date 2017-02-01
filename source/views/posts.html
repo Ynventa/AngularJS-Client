@@ -1,0 +1,14 @@
+<div ng-init="getPosts()">
+  <h1>ALL POSTS FROM jsonplaceholder.typicode.com</h1>
+
+  <h2>Posts</h2>
+  <div ng-repeat="post in posts">
+    <div>
+      <h4>{{post.title}}</h4>
+      <p>{{post.body}}</p>
+      <a ui-sref="post({postId: post.id})">View Post</a>
+      <hr />
+    </div>
+  </div>
+
+</div>

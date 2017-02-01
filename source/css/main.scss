@@ -1,0 +1,145 @@
+@import "colours.scss";
+
+body{
+  font-size: 1rem;
+  color: $gray;
+  font-family: 'Comfortaa', arial, cursive;
+
+  .bg-light-gray{
+    background: $bg-light-gray;
+    color: $gray;
+    a{
+      color: $gray;
+    }
+  }
+  .bg-gray{
+    background: $gray;
+    color: #F3F2ED;
+    a{
+      color: #F3F2ED;
+    }
+  }
+  .bg-dark-gray{
+    background: $gray;
+  }
+  .bg-light-yellow{
+    background: $light-yellow;
+    color: $gray;
+    a{
+      color: $gray;
+    }
+  }
+  .bg-yellow{
+    background: $yellow;
+    color: $gray;
+    a{
+      color: $gray;
+    }
+  }
+  .bg-dark-yellow{
+    background: $dark-yellow;
+    color: $gray;
+    a{
+      color: $gray;
+    }
+  }
+  .bg-light-green{
+    background: $light-green;
+    color: $white;
+    a{
+      color: $white;
+    }
+  }
+  .bg-green{
+    background: $green;
+    color: $white;
+    a{
+      color: $white;
+    }
+  }
+  .bg-dark-green{
+    background: $dark-green;
+    color: $white;
+    a{
+      color: $white;
+    }
+  }
+  .color-green{
+    color: $green
+    a{
+      color: $green;
+    }
+  }
+  .bg-white{
+    background: #FFFFFF;
+    color: #000;
+    a{
+      color: #000;
+    }
+  }
+  .text-yellow{
+    color: $yellow;
+  }
+  .align-left{
+    text-align: left;
+  }
+  .align-right{
+    text-align: right;
+  }
+  .align-center{
+    text-align: center;;
+  }
+  .border-toolbar{
+    border-top: 1px solid #ABABAB;
+    border-bottom: 1px solid #ABABAB;
+  }
+  .logo{
+    margin: 6px 8px;
+  }
+  .fixed{
+    position: fixed;
+    top: 0px;
+  }
+  .static{
+    position: static;
+    top: 0px;
+  }
+  .block{
+    display: block !important;
+  }
+  .noneblock{
+    display: none !important;
+  }
+  #stickyalias {
+    display: none;
+    height: 56px;
+  }
+  img.logo-home {
+    width: 100%;
+    height: auto;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .titles{
+    font-size: 1.7rem;
+    display: block;
+    padding: 6px;
+  }
+  .padding-15-right{
+    padding-right: 15px;
+  }
+  footer{
+    border-top: solid 10px $gray;
+    md-button{
+      font-size: 0.8rem;
+    }
+  }
+}
+
+p{
+  padding: 10px
+}

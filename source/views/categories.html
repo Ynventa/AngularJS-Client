@@ -1,0 +1,15 @@
+<div ng-init="allCategories()" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Categories (brands)</h3>
+  </div>
+  <div class="panel-body">
+    <div>{{status}}</div>
+    <div>
+      <div ng-repeat="category in categories">
+        <h4>{{category.name}}</h4>
+        <span>{{category.id}}</span>
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>

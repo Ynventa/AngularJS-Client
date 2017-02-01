@@ -1,0 +1,4 @@
+app/assets/js/*
+app/assets/css/*
+app/views/*
+node_modules/

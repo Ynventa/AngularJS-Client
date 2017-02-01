@@ -1,0 +1,100 @@
+body {
+  font-size: 1rem;
+  color: #2B2B2B;
+  font-family: 'Comfortaa', arial, cursive; }
+  body .bg-light-gray {
+    background: #f4f3ee;
+    color: #2B2B2B; }
+    body .bg-light-gray a {
+      color: #2B2B2B; }
+  body .bg-gray {
+    background: #2B2B2B;
+    color: #F3F2ED; }
+    body .bg-gray a {
+      color: #F3F2ED; }
+  body .bg-dark-gray {
+    background: #2B2B2B; }
+  body .bg-light-yellow {
+    background: #fef6a5;
+    color: #2B2B2B; }
+    body .bg-light-yellow a {
+      color: #2B2B2B; }
+  body .bg-yellow {
+    background: #FFC837;
+    color: #2B2B2B; }
+    body .bg-yellow a {
+      color: #2B2B2B; }
+  body .bg-dark-yellow {
+    background: #E6A700;
+    color: #2B2B2B; }
+    body .bg-dark-yellow a {
+      color: #2B2B2B; }
+  body .bg-light-green {
+    background: #85A224;
+    color: #FFFFFF; }
+    body .bg-light-green a {
+      color: #FFFFFF; }
+  body .bg-green {
+    background: #697F1C;
+    color: #FFFFFF; }
+    body .bg-green a {
+      color: #FFFFFF; }
+  body .bg-dark-green {
+    background: #576A17;
+    color: #FFFFFF; }
+    body .bg-dark-green a {
+      color: #FFFFFF; }
+  body .color-green {
+    color: #697F1C a;
+      color-color: #697F1C; }
+  body .bg-white {
+    background: #FFFFFF;
+    color: #000; }
+    body .bg-white a {
+      color: #000; }
+  body .text-yellow {
+    color: #FFC837; }
+  body .align-left {
+    text-align: left; }
+  body .align-right {
+    text-align: right; }
+  body .align-center {
+    text-align: center; }
+  body .border-toolbar {
+    border-top: 1px solid #ABABAB;
+    border-bottom: 1px solid #ABABAB; }
+  body .logo {
+    margin: 6px 8px; }
+  body .fixed {
+    position: fixed;
+    top: 0px; }
+  body .static {
+    position: static;
+    top: 0px; }
+  body .block {
+    display: block !important; }
+  body .noneblock {
+    display: none !important; }
+  body #stickyalias {
+    display: none;
+    height: 56px; }
+  body img.logo-home {
+    width: 100%;
+    height: auto; }
+  body .text-left {
+    text-align: left; }
+  body .text-right {
+    text-align: right; }
+  body .titles {
+    font-size: 1.7rem;
+    display: block;
+    padding: 6px; }
+  body .padding-15-right {
+    padding-right: 15px; }
+  body footer {
+    border-top: solid 10px #2B2B2B; }
+    body footer md-button {
+      font-size: 0.8rem; }
+
+p {
+  padding: 10px; }

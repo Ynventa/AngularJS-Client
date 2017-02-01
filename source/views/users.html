@@ -1,0 +1,22 @@
+<div ng-init="getUsers()">
+  <h1>ALL USERS FROM jsonplaceholder.typicode.com</h1>
+
+  <h2>Users</h2>
+  <div ng-id="status">{{status}}</div>
+  <div ng-repeat="user in users">
+    <div>
+      <h4>{{user.name}}</h4>
+      <div><strong>Username:</strong> {{user.username}}</div>
+      <div><strong>Email user:</strong> {{user.email}}</div>
+      <div><strong>Phone:</strong> {{user.phone}}</div>
+      <div><strong>Website:</strong> {{user.website}}</div>
+      <div><strong>Username:</strong> {{user.body}}</div>
+      <p>
+        <strong>Company {{user.company.name}}</strong><br>
+        Tags: {{user.company.catchPhrase}}
+      </p>
+      <hr />
+    </div>
+  </div>
+
+</div>
